@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "7e43f7b8cc6277494901d718706ee66c"
-application_url = "https://example.com/"
+application_url = "https://tellenzi-laar.vercel.app/"
 embedded = true
 name = "tellenzi-laar"
 handle = "tellenzi-laar"
@@ -18,7 +18,10 @@ api_version = "2024-10"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://tellenzi-laar.vercel.app/api/auth" ]
 
 [pos]
 embedded = false
+
+[build]
+include_config_on_deploy = true
